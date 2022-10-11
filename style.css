@@ -5,12 +5,16 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: "Sofia", sans-serif;
 }
 
 .main-title {
     color: white;
     font-size: 36px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
 }
 
 .credits {
@@ -27,11 +31,12 @@ body {
 }
 
 .left {
+    font-family: "Sofia", sans-serif;
     background-image: url(./viper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 35%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -39,8 +44,22 @@ body {
 }
 
 .right {
-    width: 50%;
-    height: 100%;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: auto;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(0, 100, 0);
+}
+
+.right-top,
+.right-mid,
+.right-bottom {
+    width: auto;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -54,4 +73,41 @@ body {
 .logo img {
     height: 150px;
     width: 150px;
+}
+
+.right-top {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-mid {
+    align-items: center;
+    justify-content: center;
+}
+
+.right-bottom {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.btn {
+    background-color: rgb(0, 100, 0);
+    color: white;
+    border: 0;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 40px;
+}
+
+#registration_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
