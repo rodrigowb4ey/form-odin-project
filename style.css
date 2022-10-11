@@ -1,0 +1,57 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Sofia", sans-serif;
+}
+
+.main-title {
+    color: white;
+    font-size: 36px;
+}
+
+.credits {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    background-image: url(./viper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+    padding-right: 40px;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
